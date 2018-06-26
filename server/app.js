@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 const chalk = require('chalk');
 
 // Load env variables
-dotenv.load({ path: '.env.local'});
+dotenv.load({ path: '../.env.local'});
 
 const homeController = require('./controllers/home');
 

@@ -4,7 +4,7 @@
   "description": "Sample todo app in node",
   "main": "app.js",
   "scripts": {
-    "dev": "./node_modules/nodemon/bin/nodemon.js app.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aswin Sanakan",
